@@ -5,8 +5,9 @@
 ##
 ## New environment
 ##
+export PATH=$HOME/anaconda3/bin:$PATH
 conda create --name JupyterCon18 python=3.6 -y
-source activate JupyterCon18
+conda activate JupyterCon18
 
 
 ##
@@ -28,8 +29,8 @@ unset JUPYTER_DATA_DIR
 unset JUPYTER_CONFIG_DIR
 EOF
 
-source deactivate
-source activate JupyterCon18
+conda deactivate
+conda activate JupyterCon18
 
 npm install -g ijavascript
 ijsinstall

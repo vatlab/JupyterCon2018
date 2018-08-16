@@ -2,10 +2,14 @@
 ## with SoS and a number of kernels on a MacBook Pro. It might or might not
 ## work for you.
 
+
+## Note that with the new version of conda, conda should not be in $PATH so
+## this script cannot be executed as a shell script. I do not know yet how
+## to handle this case.
+
 ##
-## New environment
+## New environment.
 ##
-export PATH=$HOME/anaconda3/bin:$PATH
 conda create --name JupyterCon18 python=3.6 -y
 conda activate JupyterCon18
 

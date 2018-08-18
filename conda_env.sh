@@ -17,7 +17,8 @@ conda activate JupyterCon18
 ##
 ## javascript kernel
 ## 
-conda install nodejs jupyter -y
+## use node 8.9.3 because jupyterlab does not support nodejs 10.x
+conda install nodejs=8.9.3 jupyter -y
 
 mkdir -p $CONDA_PREFIX/etc/jupyter/nbdata $CONDA_PREFIX/etc/conda/activate.d $CONDA_PREFIX/etc/conda/deactivate.d
 
@@ -62,6 +63,11 @@ python -m bash_kernel.install
 ##
 ## SoS notebook
 conda install cython -y
+conda install jupyter jupyterlab
 pip install sos-notebook
 python -m sos_notebook.install
+jupyter labextension install jupyterlab-sos
 
+##
+## for presentation
+pip install xlsx2csv

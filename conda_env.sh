@@ -71,3 +71,4 @@ jupyter labextension install jupyterlab-sos
 ##
 ## for presentation
 pip install xlsx2csv
+pip install bs4

@@ -72,3 +72,6 @@ jupyter labextension install jupyterlab-sos
 ## for presentation
 pip install xlsx2csv
 pip install bs4
+
+# dot and imagemagic etc for DAG
+pip install graphviz imageio pillow pydot

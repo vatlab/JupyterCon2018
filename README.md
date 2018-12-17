@@ -13,6 +13,6 @@ Please feel free to create a ticket in this repository if you have any question 
 The youtube video is available at 
 
 
-[![JupyterCon18 SoS Talk](JupyterCon18.png.png)](https://www.youtube.com/watch?v=U75eKosFbp8)
+[![JupyterCon18 SoS Talk](https://vatlab.github.io/sos-docs/doc/media/JupyterCon18.png)](https://www.youtube.com/watch?v=U75eKosFbp8)
 
 

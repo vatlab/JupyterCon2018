@@ -10,4 +10,9 @@ The title of my talk is
 and the talk is scheduled at [5:00pm in Murray Hill, on Aug 23, 2018](https://conferences.oreilly.com/jupyter/jup-ny/schedule/2018-08-23).
 Please feel free to create a ticket in this repository if you have any question or suggestion and please join my seesion if you are also attending JupyterCon.
 
+The youtube video is available at 
+
+
+[![JupyterCon18 SoS Talk](JupyterCon18.png.png)](https://www.youtube.com/watch?v=U75eKosFbp8)
+
 
